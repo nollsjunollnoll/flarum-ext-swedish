@@ -1,0 +1,28 @@
+{
+    "name": "flarum/flarum-ext-swedish",
+    "type": "flarum-extension",
+    "description": "Swedish language pack.",
+    "keywords": ["locale"],
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^0.1.0-beta.6"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        },
+        "flarum-extension": {
+            "title": "Svenska",
+            "icon": {
+                "image": "icon.svg",
+                "backgroundColor": "#00247d",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+        "flarum-locale": {
+            "code": "sv_SE",
+            "title": "Svenska"
+        }
+    }
+}
